@@ -40,7 +40,7 @@ int main() {
 	int arr[n], sorted[n];
 	printf("\nEnter N elements:");
 	for (int i = 0; i < n; i++)
-		scanf("%d", &arr[i]);
+		scanf("%d", &arr[i]);// this could be chaged
 	nearSorted(arr, sorted, k, n);
 	printf("\nSorted Array");
 	for (int i = 0; i < n; i++)
